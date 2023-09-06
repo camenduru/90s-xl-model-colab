@@ -8,7 +8,7 @@
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/90s-xl-model-colab/blob/main/90s_xl_v1_model_colab.ipynb) | 90s_xl_v1_model_colab
 
-## Training Logs
+## Version 1.0
 
 ```py
 Trained with 4440 images 😋
