@@ -28,7 +28,3 @@ Total Cost: $5.62
 ## Model & Dataset Repo
 
 ## Output
-
-
- $998.06
- $992.38
