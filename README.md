@@ -26,5 +26,6 @@ Total Cost: $5.62
 ```
 
 ## Model & Dataset Repo
+https://huggingface.co/camenduru/90s-xl/tree/main
 
 ## Output
