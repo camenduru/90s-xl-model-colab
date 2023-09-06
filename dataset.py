@@ -25,7 +25,6 @@ def browse_page(url, image_name, pages, dir):
         for image in images:
             try:
                 src = image.get_attribute('srcset')
-                # print(src)
                 download_image(image_name, src, seq, dir) 
             except:
                 pass
@@ -39,7 +38,6 @@ if __name__ == '__main__':
     pages = 100
     chrome_service = Service(executable_path='/content/chromedriver-linux64/chromedriver')
     chrome_options = webdriver.ChromeOptions()
-    # chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)    
